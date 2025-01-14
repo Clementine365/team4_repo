@@ -11,7 +11,7 @@ async function addToCartHandler(e) {
   const product = await dataSource.findProductById(e.target.dataset.id);
   addProductToCart(product);
 }
-
+ß
 // add listener to Add to Cart button
 document
   .getElementById('addToCart')
