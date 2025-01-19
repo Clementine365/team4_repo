@@ -1,5 +1,6 @@
 import { setLocalStorage } from "./utils.mjs";
 import ProductData from "./ProductData.mjs";
+import {renderHeader, renderFooter} from "./TemplateRenderer.js";
 
 const dataSource = new ProductData("tents");
 
